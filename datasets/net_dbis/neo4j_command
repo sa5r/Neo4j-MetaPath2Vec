@@ -1,0 +1,5 @@
+bin/neo4j-admin database import full --overwrite-destination --nodes /home/sak/Desktop/intensive_course/term_project/net_dbis/for_neo4j/papers_header.csv,/home/sak/Desktop/intensive_course/term_project/net_dbis/for_neo4j/papers.csv \
+--nodes /home/sak/Desktop/intensive_course/term_project/net_dbis/for_neo4j/authors_header.csv,/home/sak/Desktop/intensive_course/term_project/net_dbis/for_neo4j/authors.csv \
+--nodes /home/sak/Desktop/intensive_course/term_project/net_dbis/for_neo4j/confs_header.csv,/home/sak/Desktop/intensive_course/term_project/net_dbis/for_neo4j/confs.csv \
+--relationships /home/sak/Desktop/intensive_course/term_project/net_dbis/for_neo4j/pc_header.csv,/home/sak/Desktop/intensive_course/term_project/net_dbis/for_neo4j/pc.csv \
+--relationships /home/sak/Desktop/intensive_course/term_project/net_dbis/for_neo4j/pa_header.csv,/home/sak/Desktop/intensive_course/term_project/net_dbis/for_neo4j/pa.csv
